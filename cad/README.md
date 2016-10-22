@@ -3,8 +3,8 @@ BLUETOOTH ARCADE OR JOYSTICK CAD
 
 Arcade stick enclosure in 6mm MDF. 
 
-![Illustration](https://github.com/execuc/ble-arcade-stick/tree/master/cad/images/arcade_stick_join.png)
-![Illustration](https://github.com/execuc/ble-arcade-stick/tree/master/cad/arcade-tol0_8-slot1_placed.svg)
+![Illustration](https://github.com/execuc/ble-arcade-stick/blob/master/cad/images/arcade_stick_join.png)
+![Illustration](https://github.com/execuc/ble-arcade-stick/blob/master/cad/images/arcade_stick_svg.png)
 
 **Caution** : This SVG file has not been still cut so I do not know if he has designs errors.
 
@@ -31,6 +31,6 @@ There are three files :
 Images
 ======
 
-![Illustration](https://github.com/execuc/ble-arcade-stick/tree/master/cad/images/arcade_stick.png)
+![Illustration](https://github.com/execuc/ble-arcade-stick/blob/master/cad/images/arcade_stick.png)
 
 
