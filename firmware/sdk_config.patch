@@ -1,0 +1,38 @@
+--- ../ble_app_hids_keyboard/pca10028/s130/config/sdk_config.h	2016-10-04 14:15:37.000000000 +0200
++++ pca10028/s130/config/sdk_config.h	2016-10-13 11:30:04.006683556 +0200
+@@ -213,7 +213,7 @@
+ // <e> ADC_ENABLED - nrf_drv_adc - Driver for ADC peripheral (nRF51)
+ //==========================================================
+ #ifndef ADC_ENABLED
+-#define ADC_ENABLED 0
++#define ADC_ENABLED 1
+ #endif
+ #if  ADC_ENABLED
+ // <o> ADC_CONFIG_IRQ_PRIORITY  - Interrupt priority
+@@ -1255,7 +1255,7 @@
+ // <e> TIMER_ENABLED - nrf_drv_timer - TIMER periperal driver
+ //==========================================================
+ #ifndef TIMER_ENABLED
+-#define TIMER_ENABLED 0
++#define TIMER_ENABLED 1
+ #endif
+ #if  TIMER_ENABLED
+ // <o> TIMER_DEFAULT_CONFIG_FREQUENCY  - Timer frequency if in Timer mode
+@@ -1319,7 +1319,7 @@
+  
+ 
+ #ifndef TIMER1_ENABLED
+-#define TIMER1_ENABLED 0
++#define TIMER1_ENABLED 1
+ #endif
+ 
+ // <q> TIMER2_ENABLED  - Enable TIMER2 instance
+@@ -2113,7 +2113,7 @@
+ // <e> NRF_LOG_ENABLED - nrf_log - Logging
+ //==========================================================
+ #ifndef NRF_LOG_ENABLED
+-#define NRF_LOG_ENABLED 0
++#define NRF_LOG_ENABLED 1
+ #endif
+ #if  NRF_LOG_ENABLED
+ // <e> NRF_LOG_USES_COLORS - If enabled then ANSI escape code for colors is prefixed to every string
