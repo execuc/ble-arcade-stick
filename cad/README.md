@@ -4,9 +4,8 @@ BLUETOOTH ARCADE OR JOYSTICK CAD
 Arcade stick enclosure in 6mm MDF. 
 
 ![Illustration](https://github.com/execuc/ble-arcade-stick/blob/master/cad/images/arcade_stick_join.png)
-![Illustration](https://github.com/execuc/ble-arcade-stick/blob/master/cad/images/arcade_stick_svg.png)
 
-**Caution** : This SVG file has not been still cut so I do not know if he has designs errors.
+**Caution** : This [SVG file](https://github.com/execuc/ble-arcade-stick/blob/master/cad/arcade-tol0_8-slot1_placed.svg) has not been still cut so I do not know if he has designs errors.
 
 It was made with [LCInterlocking](https://github.com/execuc/LCInterlocking) FreeCAD module. It allow to design parts in 3D with 
 interlocking. Then parts are projected on plane in order to export in SVG file.
@@ -31,6 +30,6 @@ There are three files :
 Images
 ======
 
-![Illustration](https://github.com/execuc/ble-arcade-stick/blob/master/cad/images/arcade_stick.png)
+![Illustration](https://github.com/execuc/ble-arcade-stick/blob/master/cad/images/arcade_stick_svg.png)
 
 
