@@ -1,5 +1,5 @@
 --- ../ble_app_hids_keyboard/pca10028/s130/config/sdk_config.h	2016-10-04 14:15:37.000000000 +0200
-+++ pca10028/s130/config/sdk_config.h	2016-10-13 11:30:04.006683556 +0200
++++ pca10028/s130/config/sdk_config.h	2016-10-26 14:30:33.978163355 +0200
 @@ -213,7 +213,7 @@
  // <e> ADC_ENABLED - nrf_drv_adc - Driver for ADC peripheral (nRF51)
  //==========================================================
@@ -36,3 +36,42 @@
  #endif
  #if  NRF_LOG_ENABLED
  // <e> NRF_LOG_USES_COLORS - If enabled then ANSI escape code for colors is prefixed to every string
+@@ -2263,22 +2263,38 @@
+ 
+ // <o> NRF_LOG_BACKEND_SERIAL_UART_TX_PIN - UART TX pin 
+ #ifndef NRF_LOG_BACKEND_SERIAL_UART_TX_PIN
++#ifndef BLE400
++#define NRF_LOG_BACKEND_SERIAL_UART_TX_PIN 7
++#else
+ #define NRF_LOG_BACKEND_SERIAL_UART_TX_PIN 9
+ #endif
++#endif
+ 
+ // <o> NRF_LOG_BACKEND_SERIAL_UART_RX_PIN - UART RX pin 
+ #ifndef NRF_LOG_BACKEND_SERIAL_UART_RX_PIN
++#ifndef BLE400
++#define NRF_LOG_BACKEND_SERIAL_UART_RX_PIN 29
++#else
+ #define NRF_LOG_BACKEND_SERIAL_UART_RX_PIN 11
+ #endif
++#endif
+ 
+ // <o> NRF_LOG_BACKEND_SERIAL_UART_RTS_PIN - UART RTS pin 
+ #ifndef NRF_LOG_BACKEND_SERIAL_UART_RTS_PIN
++#ifndef BLE400
++#define NRF_LOG_BACKEND_SERIAL_UART_RTS_PIN 11
++#else
+ #define NRF_LOG_BACKEND_SERIAL_UART_RTS_PIN 8
+ #endif
++#endif
+ 
+ // <o> NRF_LOG_BACKEND_SERIAL_UART_CTS_PIN - UART CTS pin 
+ #ifndef NRF_LOG_BACKEND_SERIAL_UART_CTS_PIN
++#ifndef BLE400
+ #define NRF_LOG_BACKEND_SERIAL_UART_CTS_PIN 10
++#else
++#define NRF_LOG_BACKEND_SERIAL_UART_CTS_PIN 12
++#endif
+ #endif
+ 
+ // <o> NRF_LOG_BACKEND_SERIAL_UART_FLOW_CONTROL  - Hardware Flow Control

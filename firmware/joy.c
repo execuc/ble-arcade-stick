@@ -21,10 +21,10 @@
 #define INPUT_BT_NUMBER 14
 static uint16_t debounced_buttons = 0x0000;
 #ifndef BLE400
-const uint8_t button_mapping[INPUT_BT_NUMBER] = {14, //LEFT
-                                                 16, //RIGHT
-                                                 20, //UP
-                                                 19, //DOWN
+const uint8_t button_mapping[INPUT_BT_NUMBER] = {16, //LEFT
+                                                 14, //RIGHT
+                                                 19, //UP
+                                                 20, //DOWN
                                                  23, //B1
                                                  21, //B2
                                                  22, //B3
@@ -194,7 +194,7 @@ bool joy_get_bind_button_state(void)
     uint8_t index=0;
     for(index=0; index < 2; index++)
     {
-        bool rawState = !nrf_gpio_pin_read(button_mapping[index]);
+        bool rawState = !nrf_gpio_pin_read(button_mapping[index+4]);
         if(rawState == false)
             return false;
     }

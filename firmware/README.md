@@ -68,6 +68,7 @@ In the target option view:
 	* Replace NRF51422 by NRF51822
 	* Add NRF_LOG_ENABLED=1 to enable UART log NRF_LOG_ENABLED=0 to disable it.
 	* Add DEBUG to enable debug purposes.
+	* Add BLE400 for test with Waveshare BLE400 development board (Use buttons 1 and 2 for all input).
 	* Add ARCADE_INPUT for arcade firmware (default) or ANALOG_INPUT for analog firmware.
  * C/C++ Include paths:
     * Add ..\..\..\..\..\..\components\ble\ble_radio_notification
