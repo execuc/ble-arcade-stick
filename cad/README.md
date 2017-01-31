@@ -31,5 +31,6 @@ Images
 ======
 
 ![Illustration](https://github.com/execuc/ble-arcade-stick/blob/master/cad/images/arcade_stick_svg.png)
+![Illustration](https://github.com/execuc/ble-arcade-stick/blob/master/cad/images/arcade_stick_assembled.jpg)
 
 

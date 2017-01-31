@@ -6,6 +6,8 @@ Project in three part to create a bluetooth arcade stick:
  * [Bluetooth firmware on NRF51822](https://github.com/execuc/ble-arcade-stick/tree/master/firmware)
  * [Laser cut enclosure with FreeCAD](https://github.com/execuc/ble-arcade-stick/tree/master/cad)
  
- **Work in progress...**
+ 
+ 
+ ![Illustration](https://github.com/execuc/ble-arcade-stick/blob/master/images/arcade_stick_final.jpg)
  
  
